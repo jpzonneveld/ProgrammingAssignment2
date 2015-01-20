@@ -76,7 +76,7 @@ cacheSolve <- function(x, ...) {
             return(inverse.x)
       }
       
-      # Get the matrix to inverse..
+      # Get the matrix to inverse.
       data <- x$get()
       
       # Compute the inverse matrix.
